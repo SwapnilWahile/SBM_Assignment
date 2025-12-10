@@ -63,15 +63,15 @@ cd SBM_Assignment
 # Setup
 
 ## 2. Navigate to Backend Folder
-cd backend
-pip install -r requirements.txt
-python manage.py migrate   # migrations will apply to YOUR Supabase DB
-python manage.py runserver
+-cd backend
+-pip install -r requirements.txt
+-python manage.py migrate   # migrations will apply to YOUR Supabase DB
+-python manage.py runserver
 
 ## 3. Navigate to Frontend Folder
-cd frontend
-npm install
-npm start
+-cd frontend
+-npm install
+-npm start
 
 
 Runs the app in the development mode.
