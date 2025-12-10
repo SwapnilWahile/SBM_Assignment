@@ -59,7 +59,6 @@ https://api.open-meteo.com/v1/forecast?latitude=19.07&longitude=72.87&current_we
 git clone https://github.com/SwapnilWahile/SBM_Assignment.git
 cd SBM_Assignment
 
-
 ---
 
 # Setup
@@ -69,7 +68,8 @@ cd backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-http://localhost:8000/api/
+
+
 
 
 ### 3. Navigate to Frontend Folder
@@ -77,7 +77,11 @@ cd frontend
 npm install
 npm start
 
-http://localhost:3000
+```
+
+Backend available at :- http://localhost:8000/api/
+
+Frontend available at :- http://localhost:3000
 
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
