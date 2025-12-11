@@ -69,7 +69,13 @@ export default function ItemList() {
         <h3 style={{ textAlign: "center", color: "#555" }}>Loading...</h3>
       )}
 
-      {!loading &&
+      {!loading && items.length === 0 && (
+        <h3 style={{ textAlign: "center", color: "#777", marginTop: 30 }}>
+          No items found. Click <b>+ Add New Item</b> to create one.
+        </h3>
+      )}
+
+      {!loading && items.length > 0 &&
         items.map((item) => (
           <div key={item.id} className="item-card">
             <h3>{item.title}</h3>
