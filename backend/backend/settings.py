@@ -124,4 +124,14 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = { https://sbm-assignment.onrender.com }
+
+CORS_ALLOW_HEADERS = [
+    "content-type",
+    "authorization",
+    "accept"
+]
+
+
+
 
